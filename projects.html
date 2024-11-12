@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Editor Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="/" class="logo-link">
+                <img src="/media/logo.png" alt="Logo" class="logo">
+            </a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro-projects">
+        <div class="intro-title">
+            <h1>Projects</h1>
+            <p>Check out my portfolio of top-notch projects that I've delivered to both clients and the businesses.
+                I am happy to answer any questions. Feel free to contact me.</p>
+        </div>
+    </section>
+
+    <section class="my-projects">
+        <div class="beatsync-video">
+            <div id="videoPopup" class="popup-modal">
+                <div class="popup-content">
+                    <span class="close-button" onclick="closePopup()">&times;</span>
+                    <iframe
+                        id="youtubeIframe"
+                        class="youtube-video"
+                        src=""
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                    ></iframe>
+                    <h2 id="videoTitle"></h2>
+                    <p id="videoDescription"></p>
+                </div>
+            </div>
+            <h2><i class="fa-solid fa-angles-down"></i>Highlight Beatsync Videos</h2>
+            <div class="work-gallery">
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('clme x yasuo tiktok')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/clme x yasuo tiktok.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('COWBELL WARRIOR - Valorant Edit')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/COWBELL WARRIOR - Valorant Edit.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('EU SENTO GABU fin_2')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/EU SENTO GABU fin_2.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('Hatchback valorant')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/Hatchback valorant.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('money so big')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/money so big.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('WHAT IT IS - Valorant Edit')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/beatsync/WHAT IT IS - Valorant Edit.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="motion-banner">
+            <h2><i class="fa-solid fa-angles-down"></i>Motion Banners</h2>
+            <div class="work-gallery">
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('5v5 2024')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/5v5 2024.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('banner Bijan')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/banner Bijan.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('banner Helen')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/banner Helen.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('ssm 49')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/ssm 49.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('ssm 66')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/ssm 66.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('tet 2024')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/banner/tet 2024.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="digital-ad">
+            <h2><i class="fa-solid fa-angles-down"></i>Digital Ad</h2>
+            <div class="work-gallery">
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('FDownloader.net-1043001463463967-(1080p)')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/FDownloader.net-1043001463463967-(1080p).mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('Helen Hồng Liên Tiên Tử - Hiệu ứng chiêu thức  - Garena Liên Quân Mobile')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/Helen Hồng Liên Tiên Tử - Hiệu ứng chiêu thức  - Garena Liên Quân Mobile.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('HIỆU ỨNG CHIÊU THỨC - SEPHERA BÁCH NHẠN NGÂN LINH  - Garena Liên Quân Mobile')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/HIỆU ỨNG CHIÊU THỨC - SEPHERA BÁCH NHẠN NGÂN LINH  - Garena Liên Quân Mobile.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('Hiệu Ứng Chiêu Thức - Sổ Sứ Mệnh 49- Chiêu Tài Đại Quán - Garena Liên Quân Mobile')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/Hiệu Ứng Chiêu Thức - Sổ Sứ Mệnh 49- Chiêu Tài Đại Quán - Garena Liên Quân Mobile.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('Hiệu Ứng Chiêu Thức - Tulen Tiêu Dao Vũ Thần')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/Hiệu Ứng Chiêu Thức - Tulen Tiêu Dao Vũ Thần.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="video-container" onclick="openPopup('HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI - Garena Liên Quân Mobile')">
+                        <video width="100%" height="auto" autoplay loop muted playsinline>
+                            <source src="/media/digital ad/HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI - Garena Liên Quân Mobile.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>

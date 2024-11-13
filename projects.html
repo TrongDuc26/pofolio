@@ -1,215 +1,1383 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Video Editor Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Editor Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="nav-bar">
-            <a href="/" class="logo-link">
-                <img src="/media/logo.png" alt="Logo" class="logo">
-            </a>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/projects.html">Projects</a>
-                <a href="/contact.html">Contact</a>
-            </nav>
-        </div>
+      <div class="nav-bar">
+        <a href="/" class="logo-link">
+          <img src="./media/LOGO.png" alt="Logo" class="logo" />
+        </a>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/projects.html">Projects</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <section class="intro-projects">
-        <div class="intro-title">
-            <h1>Projects</h1>
-            <p>Check out my portfolio of top-notch projects that I've delivered to both clients and the businesses.
-                I am happy to answer any questions. Feel free to contact me.</p>
-        </div>
+      <div class="intro-title">
+        <h1>Projects</h1>
+        <p>
+          Check out my portfolio of top-notch projects that I've delivered to
+          both clients and the businesses. I am happy to answer any questions.
+          Feel free to contact me.
+        </p>
+      </div>
     </section>
 
     <section class="my-projects">
-        <div class="beatsync-video">
-            <div id="videoPopup" class="popup-modal">
-                <div class="popup-content">
-                    <span class="close-button" onclick="closePopup()">&times;</span>
-                    <iframe
-                        id="youtubeIframe"
-                        class="youtube-video"
-                        src=""
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                    ></iframe>
-                    <h2 id="videoTitle"></h2>
-                    <p id="videoDescription"></p>
-                </div>
-            </div>
-            <h2><i class="fa-solid fa-angles-down"></i>Highlight Beatsync Videos</h2>
-            <div class="work-gallery">
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('clme x yasuo tiktok')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/clme x yasuo tiktok.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('COWBELL WARRIOR - Valorant Edit')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/COWBELL WARRIOR - Valorant Edit.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('EU SENTO GABU fin_2')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/EU SENTO GABU fin_2.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('Hatchback valorant')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/Hatchback valorant.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('money so big')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/money so big.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('WHAT IT IS - Valorant Edit')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/beatsync/WHAT IT IS - Valorant Edit.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-            </div>
+      <div class="beatsync-video">
+        <div id="videoPopup" class="popup-modal">
+          <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <iframe
+              id="youtubeIframe"
+              class="youtube-video"
+              src=""
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <h2 id="videoTitle"></h2>
+          </div>
         </div>
+        <h2>
+          <i class="fa-solid fa-angles-down"></i>Highlight Beatsync Videos
+        </h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('clme x yasuo tiktok')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/491PNZ8ThCs?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=491PNZ8ThCs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('clme x yasuo tiktok')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('COWBELL WARRIOR - Valorant Edit')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/qzirNgQROIc?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=qzirNgQROIc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('COWBELL WARRIOR - Valorant Edit')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('EU SENTO GABU fin_2')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/uFzWNxwAwNI?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=uFzWNxwAwNI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('EU SENTO GABU fin_2')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Hatchback valorant')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/OUTFb__b6OQ?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=OUTFb__b6OQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Hatchback valorant')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('money so big')">
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/ySB7BwjxFCk?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=ySB7BwjxFCk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div class="overlay" onclick="openPopup('money so big')"></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('WHAT IT IS - Valorant Edit')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/OUTFb__b6OQ?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=OUTFb__b6OQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('WHAT IT IS - Valorant Edit')"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="motion-banner">
-            <h2><i class="fa-solid fa-angles-down"></i>Motion Banners</h2>
-            <div class="work-gallery">
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('5v5 2024')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/5v5 2024.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('banner Bijan')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/banner Bijan.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('banner Helen')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/banner Helen.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('ssm 49')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/ssm 49.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('ssm 66')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/ssm 66.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('tet 2024')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/banner/tet 2024.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
+      <div class="motion-banner">
+        <h2><i class="fa-solid fa-angles-down"></i>Motion Banners</h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('5v5 2024')">
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/OUTFb__b6OQ?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=OUTFb__b6OQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div class="overlay" onclick="openPopup('5v5 2024')"></div>
             </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('banner Bijan')">
+              <video width="100%" height="auto" autoplay loop muted playsinline>
+                <source src="/media/banner/banner Bijan.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('banner Helen')">
+              <video width="100%" height="auto" autoplay loop muted playsinline>
+                <source src="/media/banner/banner Helen.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('ssm 49')">
+              <video width="100%" height="auto" autoplay loop muted playsinline>
+                <source src="/media/banner/ssm 49.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('ssm 66')">
+              <video width="100%" height="auto" autoplay loop muted playsinline>
+                <source src="/media/banner/ssm 66.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('tet 2024')">
+              <video width="100%" height="auto" autoplay loop muted playsinline>
+                <source src="/media/banner/tet 2024.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="digital-ad">
-            <h2><i class="fa-solid fa-angles-down"></i>Digital Ad</h2>
-            <div class="work-gallery">
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('FDownloader.net-1043001463463967-(1080p)')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/FDownloader.net-1043001463463967-(1080p).mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('Helen Hồng Liên Tiên Tử - Hiệu ứng chiêu thức  - Garena Liên Quân Mobile')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/Helen Hồng Liên Tiên Tử - Hiệu ứng chiêu thức  - Garena Liên Quân Mobile.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('HIỆU ỨNG CHIÊU THỨC - SEPHERA BÁCH NHẠN NGÂN LINH  - Garena Liên Quân Mobile')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/HIỆU ỨNG CHIÊU THỨC - SEPHERA BÁCH NHẠN NGÂN LINH  - Garena Liên Quân Mobile.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('Hiệu Ứng Chiêu Thức - Sổ Sứ Mệnh 49- Chiêu Tài Đại Quán - Garena Liên Quân Mobile')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/Hiệu Ứng Chiêu Thức - Sổ Sứ Mệnh 49- Chiêu Tài Đại Quán - Garena Liên Quân Mobile.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('Hiệu Ứng Chiêu Thức - Tulen Tiêu Dao Vũ Thần')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/Hiệu Ứng Chiêu Thức - Tulen Tiêu Dao Vũ Thần.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="video-container" onclick="openPopup('HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI - Garena Liên Quân Mobile')">
-                        <video width="100%" height="auto" autoplay loop muted playsinline>
-                            <source src="/media/digital ad/HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI - Garena Liên Quân Mobile.mp4" type="video/mp4">
-                            Trình duyệt của bạn không hỗ trợ thẻ video.
-                        </video>
-                    </div>
-                </div>
+      <div class="digital-ad">
+        <h2><i class="fa-solid fa-angles-down"></i>Digital Ad</h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Helen Hồng Liên Tiên Tử')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/Gw9itxmel8M?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=Gw9itxmel8M"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Helen Hồng Liên Tiên Tử')"
+              ></div>
             </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Tulen Tiêu Dao Vũ Thần')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/DCa1LPYcxvg?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=DCa1LPYcxvg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Tulen Tiêu Dao Vũ Thần')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('SEPHERA BÁCH NHẠN NGÂN LINH')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/njNQ-_eCgqE?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=njNQ-_eCgqE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('SEPHERA BÁCH NHẠN NGÂN LINH')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('Sổ Sứ Mệnh 49')">
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/_eE_i4ArHxo&t=5s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=_eE_i4ArHxo&t=5s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div class="overlay" onclick="openPopup('Sổ Sứ Mệnh 49')"></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/fCxsdHgEzZg?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=fCxsdHgEzZg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('HIỆU ỨNG CHIÊU THỨC RAZ BÃO VŨ CUỒNG LÔI')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('MURAD TUYỆT THẾ THẦN BINH')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/6EJoyWdQAYg&t=7s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=6EJoyWdQAYg&t=7s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('MURAD TUYỆT THẾ THẦN BINH')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Erin Thánh Quang Tinh Linh')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/qRMf3aTm0Bk&t=17s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=qRMf3aTm0Bk&t=17s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Erin Thánh Quang Tinh Linh')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('Sổ sứ mệnh 57')">
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/Lf-JImv0sQ4&t=1s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=Lf-JImv0sQ4&t=1s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div class="overlay" onclick="openPopup('Sổ sứ mệnh 57')"></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Paine Tử Xà Bá Tước')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/AH8LkrVM6vY&t=1s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=AH8LkrVM6vY&t=1s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Paine Tử Xà Bá Tước')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Grakk Thần Ẩm Thực')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/uMGTL4PgtE4?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=uMGTL4PgtE4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Grakk Thần Ẩm Thực')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Arduin Bạch Vệ Chiến Giáp')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/v=93-UPx-KFsA?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=v=93-UPx-KFsA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Arduin Bạch Vệ Chiến Giáp')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Điểm tin cập nhật phiên bản Lễ Hội 5V5')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/v=fbwKcdSsyNE?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=v=fbwKcdSsyNE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Điểm tin cập nhật phiên bản Lễ Hội 5V5')"
+              ></div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="hightlight-motage">
+        <h2><i class="fa-solid fa-angles-down"></i>Highlight Montage Videos</h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('Highlight Showmatch Rực Lửa Cùng Ryy Và Châu Mòe')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/KMw7jLN1fkE&t=33s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=KMw7jLN1fkE&t=33s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('Highlight Showmatch Rực Lửa Cùng Ryy Và Châu Mòe')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="video-container" onclick="openPopup('MỞ GÌ BUILD ĐẤY')">
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/AFm5cwtDezc&t=1022s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=AFm5cwtDezc&t=1022s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div class="overlay" onclick="openPopup('MỞ GÌ BUILD ĐẤY')"></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('TEST 3 VÒNG SỰ KIỆN POWERSHOT')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/1IUdm58ohHY&t=35s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=1IUdm58ohHY&t=35s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('TEST 3 VÒNG SỰ KIỆN POWERSHOT')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('BUILD TEAM BỒ ĐÀO NHA')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/gHxGVsgW9SQ&t=38s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=gHxGVsgW9SQ&t=38s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('BUILD TEAM BỒ ĐÀO NHA')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('ĐẬP ĐI XÂY LẠI ACC CHÍNH')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/6onUHJnbUC0&t=3s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=6onUHJnbUC0&t=3s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('ĐẬP ĐI XÂY LẠI ACC CHÍNH')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('MỞ 5 VÒNG BI LẮC FCO')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/-QCQabdf1-4&t=13s?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=-QCQabdf1-4&t=13s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('MỞ 5 VÒNG BI LẮC FCO')"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="music-video">
+        <h2><i class="fa-solid fa-angles-down"></i>Music Videos</h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('MUỐN ĐƯỢC GẶP EM - Hiderway')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/eQ4qN9BbKMs?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=eQ4qN9BbKMs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('MUỐN ĐƯỢC GẶP EM - Hiderway')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup(' Không Ai Nói Chia Tay (HuyPT Remix)')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/XXePDetkJIU?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=XXePDetkJIU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup(' Không Ai Nói Chia Tay (HuyPT Remix)')"
+              ></div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div
+              class="video-container"
+              onclick="openPopup('CÁNH HOA HÉO TÀN - KHÁNH PHƯƠNG X DOMINO REMIX')"
+            >
+              <iframe
+                width="100%"
+                style="aspect-ratio: 16/9"
+                src="https://www.youtube-nocookie.com/embed/6ZYq4hHUYNs?si=B1rZ0ocnAYL3uDiX&amp;controls=0&autoplay=1&loop=1&mute=1&playlist=6ZYq4hHUYNs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+              >
+              </iframe>
+              <div
+                class="overlay"
+                onclick="openPopup('CÁNH HOA HÉO TÀN - KHÁNH PHƯƠNG X DOMINO REMIX')"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tiktok-video">
+        <h2><i class="fa-solid fa-angles-down"></i>Tiktok Videos</h2>
+        <div class="tiktok-container">
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7309678266225396993"
+                data-video-id="7309678266225396993"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Đúng nhận sai cãi, các con có nhìn thấy bản thân mình ở trong
+                  đây không?
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="lqmb"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqmb?refer=embed"
+                    >#lqmb</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7309678307867036418?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7250685734737284358"
+                data-video-id="7250685734737284358"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Alice: Cứu tui chời ơi cứu tui 😭
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7250685761886948101?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7262618773193116930"
+                data-video-id="7262618773193116930"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Bớt bớt cái tính ngựa ngựa đi nha anh Flo
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="gamingontiktok"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/gamingontiktok?refer=embed"
+                    >#gamingontiktok</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7262619009546668802?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7266732284764622088"
+                data-video-id="7266732284764622088"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Lính tà thần này gánh team phải biết 😉
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="gamingontiktok"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/gamingontiktok?refer=embed"
+                    >#gamingontiktok</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7266732325492591362?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7247345793873562882"
+                data-video-id="7247345793873562882"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Ai cũng happy, trừ Allain...
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="sieusaotoannang3"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/sieusaotoannang3?refer=embed"
+                    >#sieusaotoannang3</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7247346088976468737?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7256385325193268485"
+                data-video-id="7256385325193268485"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Bạn là Thiên Vũ Thần Long nhưng bị sát thủ bắt, sát thủ nhắm
+                  đến...Đừng lo đã có Helen 😎
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="tronnongchotqua_jul"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/tronnongchotqua_jul?refer=embed"
+                    >#tronnongchotqua_jul</a
+                  >
+                  <a
+                    title="tronnongchotqua"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/tronnongchotqua?refer=embed"
+                    >#tronnongchotqua</a
+                  >
+                  <a
+                    title="ngayhoilienquan2023"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/ngayhoilienquan2023?refer=embed"
+                    >#ngayhoilienquan2023</a
+                  >
+                  <a
+                    title="telannasthienvuthanlong_jul"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/telannasthienvuthanlong_jul?refer=embed"
+                    >#telannasthienvuthanlong_jul</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7256385362025728774?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7252904589819759873"
+                data-video-id="7252904589819759873"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Á, bắt được con sứa cầm kiếm!
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7252904682534849282?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7312353598510222593"
+                data-video-id="7312353598510222593"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Đại chiến sv ở Bình Nguyên Vô Tận
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="lqmb"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqmb?refer=embed"
+                    >#lqmb</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7312353655696886530?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7268199762661248257"
+                data-video-id="7268199762661248257"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Không má nào chịu thua má nào
+                  <a
+                    title="lienquamobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquamobile?refer=embed"
+                    >#lienquamobile</a
+                  >
+                  <a
+                    title="lqm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lqm?refer=embed"
+                    >#lqm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="gamingontiktok"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/gamingontiktok?refer=embed"
+                    >#gamingontiktok</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7268199968781912833?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+          <div class="tiktok-item">
+            <div class="video-container">
+              <blockquote
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@lienquanmobile_garena/video/7271203388539407618"
+                data-video-id="7271203388539407618"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@lienquanmobile_garena"
+                    href="https://www.tiktok.com/@lienquanmobile_garena?refer=embed"
+                    >@lienquanmobile_garena</a
+                  >
+                  Tôi đã bảo anh ôm trụ tí rồi tôi quay lại mà anh Yorn!?
+                  <a
+                    title="lienquanmobile"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/lienquanmobile?refer=embed"
+                    >#lienquanmobile</a
+                  >
+                  <a
+                    title="qm"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/qm?refer=embed"
+                    >#qm</a
+                  >
+                  <a
+                    title="aov"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/aov?refer=embed"
+                    >#aov</a
+                  >
+                  <a
+                    title="garena"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/garena?refer=embed"
+                    >#garena</a
+                  >
+                  <a
+                    title="xuhuong"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                    >#xuhuong</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    title="gamingontiktok"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/gamingontiktok?refer=embed"
+                    >#gamingontiktok</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ nhạc nền  - Liên Quân Mobile Garena"
+                    href="https://www.tiktok.com/music/nhạc-nền-Liên-Quân-Mobile-Garena-7271205848079616770?refer=embed"
+                    >♬ nhạc nền - Liên Quân Mobile Garena</a
+                  >
+                </section>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://www.youtube.com/iframe_api"></script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

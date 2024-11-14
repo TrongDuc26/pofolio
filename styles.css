@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'MyCustomFont';
-    src: url('/fonts/DC-MONUMENT-EXTENDED-ULTRABOLD.OTF') format('truetype'); 
+    src: url('./fonts/DC-MONUMENT-EXTENDED-ULTRABOLD.OTF') format('truetype'); 
     font-weight: normal; 
     font-style: normal;
 }

@@ -152,12 +152,12 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .work-gallery-bot .work-item {
     position: relative;
-    width: 32%;
+    width: 33%;
 }
 
 
@@ -244,7 +244,7 @@ body {
 }
 
 .work-gallery .work-item {
-    width: 32%;
+    width: 33%;
     height: 300px;
     margin-bottom: 10px;
 }

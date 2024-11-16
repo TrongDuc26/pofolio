@@ -62,6 +62,16 @@ const videoLinks = {
     "CÁNH HOA HÉO TÀN - KHÁNH PHƯƠNG X DOMINO REMIX": "https://www.youtube.com/embed/6ZYq4hHUYNs?autoplay=1&loop=1"
 };
 
+// Đường dẫn video trong dự án
+// const videoSources = {
+//     "Banner Bijan": "./media/banner Bijan.mp4",
+//     "banner Helen": "./media/banner Helen.mp4",
+//     "ssm 49": "./media/ssm 49.mp4",
+//     "ssm 66": "./media/ssm 66.mp4",
+//     "lobby errol": "./media/lobby errol.mp4",
+//     "lobby veres": "./media/lobby veres.mp4",
+// };
+
 // Hàm mở popup và hiển thị mô tả
 function openPopup(videoTitle) {
     // Hiển thị popup
@@ -74,6 +84,14 @@ function openPopup(videoTitle) {
     document.getElementById("youtubeIframe").src = videoLinks[videoTitle];
 }
 
+// function openPopupVideo(videoTitle) {
+//     document.getElementById("videoPopupVideo").style.display = "flex";
+//     document.getElementById("videoTitle").innerText = videoTitle;
+//     document.getElementById("sourceVideo").src = videoSources[videoTitle];
+//     console.log("Opening popup for:", videoTitle);
+//     console.log("Link file:", videoSources[videoTitle]);
+// }
+
 // Hàm đóng popup
 function closePopup() {
     document.getElementById("videoPopup").style.display = "none";
@@ -81,3 +99,16 @@ function closePopup() {
     // Xóa link trong iframe để dừng video khi đóng popup
     document.getElementById("youtubeIframe").src = "";
 }
+
+// function closePopupVideo() {
+//     const videoPopup = document.getElementById("videoPopupVideo");
+//     const popupVideo = document.getElementById("videoPopup");
+  
+//     // Dừng video khi đóng popup
+//     // popupVideo.pause();
+//     popupVideo.src = ""; // Reset video source
+  
+//     // Ẩn popup
+//     videoPopup.style.display = "none";
+//     console.log("Closing popup");
+// }

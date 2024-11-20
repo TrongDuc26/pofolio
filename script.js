@@ -18,7 +18,7 @@ const videoDescriptions = {
     "INGAME TRAILER | Paine Tử Xà Bá Tước 🔮 - Garena Liên Quân Mobile": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật INGAME TRAILER | Paine Tử Xà Bá Tước 🔮 - Garena Liên Quân Mobile.",
     "INGAME TRAILER | Grakk Thần Ẩm Thực 🥘 - Garena Liên Quân Mobile": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật Grakk Thần Ẩm Thực.",
     "VIDEO | Tổng hợp phiên bản cập nhật - Ngày Hội Liên Quân🔥 - Garena Liên Quân Mobile": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật VIDEO | Tổng hợp phiên bản cập nhật - Ngày Hội Liên Quân🔥 - Garena Liên Quân Mobile.",
-    "TỔNG HỢP PHẦN QUÀ | Sổ sứ mệnh 57: Chuyện Tình Ô Thước ✨ - Garena Liên Quân Mobile": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật Điểm tin cập nhật phiên bản Lễ Hội 5V5.",
+    "TỔNG HỢP PHẦN QUÀ | Sổ Sứ Mệnh 59: Lửa Hận Truyền Kỳ 🔥 - Garena Liên Quân Mobile": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật Điểm tin cập nhật phiên bản Lễ Hội 5V5.",
     "CẦM 10K TỎI BUILD TEAM BỒ ĐÀO NHA EURO 2024 TRI ÂN ANH LIÊM | LEEHARIII": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật BUILD TEAM BỒ ĐÀO NHA.",
     "ĐẬP ĐI XÂY LẠI ACC CHÍNH VỚI FULL TEAM NTG + 8 SIÊU ... | LEEHARIII": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật ĐẬP ĐI XÂY LẠI ACC CHÍNH.",
     "MỞ 5 VÒNG BI LẮC FCO CÙNG ANH MC QUEEN VÀ CÁI KẾT | LEEHARIII": "Video này trình bày những khoảnh khắc ấn tượng của nhân vật MỞ 5 VÒNG BI LẮC FCO.",
@@ -34,6 +34,9 @@ const videoDescriptions = {
     "Sổ sứ mệnh 49" : "Desc",
     "lobby veres" : "Desc",
     "lobby errol" : "Desc",
+    "banner Helen" : "Desc",
+    "banner Bijan" : "Desc",
+    "5v5 2024" : "Desc",
 };
 
 // Link Youtube cho từng video
@@ -56,7 +59,7 @@ const videoLinks = {
     "INGAME TRAILER | Paine Tử Xà Bá Tước 🔮 - Garena Liên Quân Mobile": "https://www.youtube.com/embed/AH8LkrVM6vY&t=1s?autoplay=1&loop=1",
     "INGAME TRAILER | Grakk Thần Ẩm Thực 🥘 - Garena Liên Quân Mobile": "https://www.youtube.com/embed/uMGTL4PgtE4?autoplay=1&loop=1",
     "VIDEO | Tổng hợp phiên bản cập nhật - Ngày Hội Liên Quân🔥 - Garena Liên Quân Mobile": "https://www.youtube.com/embed/v=_dUosHXp964&t=36s?autoplay=1&loop=1",
-    "TỔNG HỢP PHẦN QUÀ | Sổ sứ mệnh 57: Chuyện Tình Ô Thước ✨ - Garena Liên Quân Mobile": "https://www.youtube.com/embed/epN1s5j3Pw0&t=1s?autoplay=1&loop=1",
+    "TỔNG HỢP PHẦN QUÀ | Sổ Sứ Mệnh 59: Lửa Hận Truyền Kỳ 🔥 - Garena Liên Quân Mobile": "https://www.youtube.com/embed/blLa3p14BkI?autoplay=1&loop=1",
     "CẦM 10K TỎI BUILD TEAM BỒ ĐÀO NHA EURO 2024 TRI ÂN ANH LIÊM | LEEHARIII": "https://www.youtube.com/embed/gHxGVsgW9SQ&t=38s?autoplay=1&loop=1",
     "ĐẬP ĐI XÂY LẠI ACC CHÍNH VỚI FULL TEAM NTG + 8 SIÊU ... | LEEHARIII": "https://www.youtube.com/embed/AFm5cwtDezc&t=1022s?autoplay=1&loop=1",
     "MỞ 5 VÒNG BI LẮC FCO CÙNG ANH MC QUEEN VÀ CÁI KẾT | LEEHARIII": "https://www.youtube.com/embed/1IUdm58ohHY&t=35s?autoplay=1&loop=1",
@@ -72,6 +75,9 @@ const videoLinks = {
     "Hiệu Ứng Chiêu Thức | Sổ Sứ Mệnh 49: Chiêu Tài Đại Quán - Garena Liên Quân Mobile" : "https://www.youtube.com/embed/kaiEneZ0-vc?autoplay=1&loop=1",
     "lobby veres" : "https://www.youtube.com/embed/uRJvssocUtk?autoplay=1&loop=1",
     "lobby errol" : "https://www.youtube.com/embed/7nOVCif-afg?autoplay=1&loop=1",
+    "banner Helen" : "https://www.youtube.com/embed/QZ9slridCFU?autoplay=1&loop=1",
+    "banner Bijan" : "https://www.youtube.com/embed/9Zquuc1_jFY?autoplay=1&loop=1",
+    "5v5 2024" : "https://www.youtube.com/embed/91nGPp-5pbc?autoplay=1&loop=1",
 };
 
 // Đường dẫn video trong dự án
